@@ -35,7 +35,6 @@ Tweet Manager
 # Limitations
 - When saving tweets then loading from the file directly after the tweets now become doubled same id, same user, same text (idealy would check if the tweet exists in linked list already before adding it)
 - Stop words dont account for a case where there is punctuation after the word such as 'word a.' (currently wouldnt count as stop word because only looks for spaces/beginning/end on each side of the stop word)
-- 
 
 # Future Improvements
 - Make algorithms more efficient (some longer algorithms that could be simplified)
